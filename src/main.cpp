@@ -1,12 +1,16 @@
 #include <Arduino.h>
+//dont remove!
 
-#include <Arduino.h>
-#define LED_PIN 2
+// #define or int variables here
+
+
+//setup code, runs once at startup
 void setup() {
-  Serial.begin(115200); pinMode(LED_PIN, OUTPUT); Serial.println("ESP32 Blink Test Started");
+
 }
+
+
+//loop code, runs repeatedly after setup
 void loop() {
- digitalWrite(LED_PIN, HIGH);
- delay(1000);
- digitalWrite(LED_PIN, LOW);
- delay(1000);}
+
+}
