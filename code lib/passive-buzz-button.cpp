@@ -2,8 +2,8 @@
 //dont remove!
 #include <pitches.h>
 
-// Button and Speaker - Plays a melody when the button is pressed
-// Connect speaker to pin 18 and GND, and button to pin 21 and GND)
+// Button and Passive buzzer - Plays a melody when the button is pressed
+// Connect buzzer to pin 18 and GND, and button to pin 21 and GND)
 
 
 int buttonPin = 21;
