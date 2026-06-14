@@ -1,6 +1,8 @@
 #include <Arduino.h>
 //dont remove!
 
+// DHT11 Temperature and Humidity Sensor with OLED Display
+// platformio.ini - lib_deps = adafruit/Adafruit SSD1306@^2.5.17
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
